@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WingsNGO</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <!-- Navbar_above -->
+    <div class="above_nav">
+        <ul class="ul_flex">
+            <li>✉️ info@wingsngo.in</li>
+            <li>📞 +91-510-2333143, +91-8448440266</li>
+        </ul>
+        <ul class="social"> <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+        </ul>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="Logo" width="75">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register as Donor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Raise a Request</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary btn-donate">Donate Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section class="section">
+        <div id="carouselExampleControls" class="carousel slide custom-carousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/ngo8.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption slide-in">
+                        <h1>Together we can make a Difference</h1>
+
+                        <p>Forget what you can get and see what you can give.</p>
+                        <a href="#" class="btn btn-primary">Register as Donor</a>
+                        <a href="#" class="btn btn-secondary">Donate Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ngo7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption slide-in">
+                        <h1>Together we can make a Difference</h1>
+                        <p>Help today because tomorrow you may be the one who needs helping!</p>
+
+                        <a href="#" class="btn btn-primary">Register as Donor</a>
+                        <a href="#" class="btn btn-secondary">Donate Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hands2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption slide-in">
+                        <h1>Plantation Drive</h1>
+                        <p>A beautiful plant is like having a friend around the house!</p>
+                        <p>Forget what you can get and see what you can give.</p>
+                        <a href="#" class="btn btn-primary">Register as Donor</a>
+                        <a href="#" class="btn btn-secondary">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only  ">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Cards below header -->
+        <div class="cards-container-overlap ">
+            <div class="card">
+                <div class="card-icon">
+                    <i class="bi bi-person-plus-fill"></i>
+                </div>
+                <h3>Register as Donor</h3>
+                <p>Help today because tomorrow you may be the one who needs helping!</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <i class="bi bi-heart-pulse-fill"></i>
+                </div>
+                <h3>Raise a Request</h3>
+                <p>Help today because tomorrow you may be the one who needs helping!</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <i class="bi bi-cash-coin"></i>
+                </div>
+                <h3>Donate Now</h3>
+                <p>Help today because tomorrow you may be the one who needs helping!</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About page -->
+    <section class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 abt-img">
+                    <img src="./images/hands.jpg" alt="">
+                </div>
+                <div class="col-md-6 abt-content">
+                    <h1>About Us</h1>
+                    <p>Wings Jeevan Ki Ek Nai Udaan is 100% voluntary organization. Our organization has only one
+                        objective: "Awareness in all". </br>
+                        For this purpose, we are spreading awareness among all for blood donation, health, education,
+                        women empowerment, livelihood, environment, water conservation, food wastage management.</p>
+                    <button class="btn btn-primary">More About Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card page -->
+    <section class="boxes">
+        <div class="box">
+
+            <div class="scrolling-box">
+
+                <ul id="scrolling-list">
+                    <li>Lorem ipsum dolor sit amet. 1 Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet. 3</li>
+                    <li>Lorem ipsum dolor sit amet. 4</li>
+                    <li>Lorem ipsum dolor sit amet. 5</li>
+                    <li>Lorem ipsum dolor sit amet. 6</li>
+                    <li>Lorem ipsum dolor sit amet. 7</li>
+                    <li>Lorem ipsum dolor sit amet. 8</li>
+                    <li>Lorem ipsum dolor sit amet. 9</li>
+                    <li>Lorem ipsum dolor sit amet. 10</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/history.jpg" alt="Image 1">
+            <h2>Our History</h2>
+            <p>With the aim of meeting the shortage of blood donation, we started our voluntary service in the name of
+                "Need Blood Jhansi" WhatsApp group and then we registered the organization as name "Wings Jeevan Ki Ek
+                Nai Udaan" in 20 Dec 2018.</p>
+            <button>Read More</button>
+        </div>
+        <div class="box">
+            <img src="./images/mission.webp" alt="Image 2">
+            <h3>Mission</h3>
+            <p>For this purpose, we are spreading awareness among all for blood donation, health, education, women
+                empowerment, livelihood, environment, water conservation, food wastage management.</p>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <!-- Below Card -->
+    <div class="score">
+        <div class="score-section">
+            <i class="bi bi-life-preserver" style="font-size: 48px;"></i>
+            <div id="score1" class="score-number">50</div>
+            <h5>Life Saved</h5>
+        </div>
+        <div class="score-section">
+            <i class="bi bi-person-plus-fill" style="font-size: 48px;"></i>
+            <div id="score2" class="score-number">1</div>
+            <h5>Register as Donor</h5>
+        </div>
+        <div class="score-section">
+            <i class="bi bi-heart-pulse-fill" style="font-size: 48px;"></i>
+            <div id="score3" class="score-number">1</div>
+            <h5>Blood Requests</h5>
+        </div>
+    </div>
+
+    <!-- Card carousel section -->
+
+    
+
+    <!-- above footer testimonials -->
+
+    <section id="testimonials" class="bg-light">
+        <div class="container py-5">
+            <h2 class="text-center font-weight-bold mb-5">What People Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="testimonial text-center">
+                                    <img src="/images/ngo1.webp" alt="Client 1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at urna at
+                                        libero vestibulum.</p>
+                                    <h4>John Doe</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="testimonial text-center">
+                                    <img src="/images/ngo5.jpg" alt="Client 2">
+                                    <p>Phasellus euismod diam vel lectus facilisis, sit amet hendrerit odio varius.</p>
+                                    <h4>Jane Smith</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="foot-logo">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt=" Logo">
+                </a>
+                <p>Wings Jeevan Ki Ek Nai Udan</p>
+                <ul class="social"> <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </ul>
+
+            </div>
+            <div class="foot-ul">
+                <div class="uls">
+                    <ul>
+                        <h3>Useful Links </h3>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li> Services</li>
+                        <li> Register</li>
+                        <li> Raise a Request</li>
+                    </ul>
+                    <ul>
+                        <h3> Information</h3>
+                        <li>Donate Now</li>
+                        <li> Events</li>
+                        <li> Gallery</li>
+                        <li> FAQ</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3> Contact Us</h3>
+                        <li> info@wingsngo.in</li>
+                        <li> +91-510-2333143 , +91-8448440266 </li>
+                        <li>143, Phool Bagh, Chhaniyapura Inside Orchha Gate, Uttar Pradesh 284002</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="copyright">
+            <p> © 2023 Wing NGO All Rights Reserved.</p>
+            <p>Terms &conditions </p>
+            <p>Privacy policy</p>
+            <p>Donar Privacy Policy</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
